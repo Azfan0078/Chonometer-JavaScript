@@ -1,0 +1,30 @@
+body{
+    background-color: #1DE0A0;
+}
+h1{
+    font: bold 80pt arial;
+}
+header{
+    text-align: center;
+}
+main{
+    margin: auto;
+    text-align: center;
+}
+#stopWatch{
+    font: normal 70pt arial;
+    padding-bottom: 20px;
+}
+.button{
+    font: bold 15pt arial;
+    color: #E0441D ;
+    border: transparent solid 1px;
+    border-radius: 10px;
+    height: 70px;
+    width: 80px;
+    margin: 2px;
+}
+#divLoop{
+    margin-top: 20px;
+    font: italic 30pt arial;
+}
