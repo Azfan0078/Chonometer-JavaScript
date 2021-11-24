@@ -54,9 +54,9 @@ let chronometer
     }
     function loop() {
         //Saving loops
-            if(seconds >= 60 && minutes < 60){
+            if(minutes > 0 && hours < 1){
                 document.getElementById('divLoop').innerHTML += `<strong>${counterLoops}</strong>: ${minutes}m ${seconds}s ${milliseconds}ms<br>` 
-            }else if(minutes >= 60){
+            }else if(hours > 0){
                 document.getElementById('divLoop').innerHTML += `<strong>${counterLoops}</strong>: ${hours}h ${minutes}m ${seconds}s ${milliseconds}ms<br>`
             }else{
                 document.getElementById('divLoop').innerHTML += `<strong>${counterLoops}</strong>: ${seconds}s ${milliseconds}ms<br>`
